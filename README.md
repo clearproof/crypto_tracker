@@ -1,4 +1,4 @@
-# cryptolution
+# crypto tracker
 
 > awesome stuff mayn
 
