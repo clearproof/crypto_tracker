@@ -1,0 +1,98 @@
+// Change global color from Bootstrap
+$theme-colors: (
+    "primary":    #2C3E50,
+    "secondary":  #2980B9,
+    //"success":    $success,
+    //"info":       $info,
+   // "warning":    $warning,
+    "danger":     #E74C3C,
+    "light":      white,
+    //"dark":       #1e3b4c,
+);
+
+// Change nav link active background
+$nav-tabs-link-active-bg: #5c6f7c;
+// Change height of navbar
+$nav-link-padding-y: 1.5rem;
+
+
+$jumbotron-bg: #1e3b4c;
+$body-bg: #ecf0f1;
+
+
+// Global var design
+.globals-bar{
+  position: relative;
+  padding: 0.5rem;
+  background-color: #1e3b4c;
+  margin: 0;
+
+  // Brand
+  .globals-brand, .globals-brand > *{
+    position: absolute;
+    left: 1rem;
+    top: -0.3rem;
+    color: #ecf0f1;
+  }
+  // Cell design
+  .globals-bar-cell{
+    font:  .875rem 'Open Sans', sans-serif;
+    color: #ecf0f1;
+    position: relative;
+    margin:  0 5px 0 8px;
+
+    // Normal value
+    .globals-bar-cell-title{
+      font-size: 0.9rem;
+      font-weight: 400;
+      position: absolute;
+      bottom: 1.5rem;
+      left: 0;
+
+    }
+    .globals-bar-cell-value{
+      font-size: 1rem;
+      // Force value to bottom
+      position: absolute;
+      font-weight: 600;
+      bottom: 0.2rem;
+      left: 0;
+
+    }
+
+    // Big value
+    .globals-bar-cell-title-big{
+      font-family:  'Open Sans', sans-serif;
+      font-size: 1rem;
+      font-weight: 400;
+    }
+    .globals-bar-cell-value-big{
+      font-weight: 600;
+      font-size: 1.6rem;
+
+    }
+
+  }
+
+}
+
+// Change brand font
+.navbar-brand{
+  font: .875rem "Montserrat","helvetica neue",helvetica,arial,sans-serif;
+  color: #1e3b4c;
+  font-weight: 600;
+
+}
+// Change nav link font
+.nav-link{
+  font-family:  'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+// Force table background color
+.table{
+  background-color: white !important;
+}
+// Remove container padding...
+.container-fluid{
+  padding: 0 !important;
+}

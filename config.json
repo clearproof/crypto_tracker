@@ -1,0 +1,18 @@
+{
+  "donate": {
+    "bitcoin": "dsq4eaz54e7dse4za2ez7d78zze"
+  },
+  "coincap": {
+    "api_url": {
+      "front": "https://coincap.io/front",
+      "global": "http://coincap.io/global",
+      "history": "http://coincap.io/history/"
+    }
+  },
+  "fixer_io": {
+    "api_url":{
+      "latest": "https://api.fixer.io/latest?base=USD"
+    }
+  },
+  "currency": "EUR"
+}
